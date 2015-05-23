@@ -1,0 +1,52 @@
+body.tcs-style {
+    background-color: #3a7cd8;
+}
+
+.logo {
+    background: transparent url('../img/tcs-logo.png') no-repeat 0 0;
+    margin: -2.5em;
+    padding: 1.6em 14.3em;
+}
+
+.control-group input {
+    text-align: center;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 0 9em;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.right {
+    float: right;
+}
+
+.page-header h2{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h6.copyright {
+    text-align:center;
+    color: #fff
+}
+
+h6 a, h6 a:hover {
+    text-decoration: none;
+    color: #fff;
+}
