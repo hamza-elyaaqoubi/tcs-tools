@@ -20,6 +20,7 @@
         <mockito.version>1.10.19</mockito.version>
         <spring.version>4.1.5.RELEASE</spring.version>
         <fest-assert.version>1.4</fest-assert.version>
+        <jsr311.api.version>1.1.1</jsr311.api.version>
     </properties>
 
     <dependencies>
@@ -61,7 +62,7 @@
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>jsr311-api</artifactId>
-            <version>1.1.1</version>
+            <version>${jsr311.api.version}</version>
         </dependency>
 
         <dependency>
@@ -99,8 +100,6 @@
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
